@@ -1,0 +1,146 @@
+
+
+.projects {
+  padding-top: 100px;
+}
+.container {
+
+}
+.projects__title,
+.title {
+  font-family: Comfortaa, cursive, Roboto, sans-serif;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 60px;
+
+  margin-bottom: 50px;
+}
+.projects__wrap {
+  display: grid;
+  grid-template-columns: 680px 380px;
+  grid-template-rows: repeat(4, 180px);
+  grid-gap: 30px 120px;
+  grid-auto-flow: column;
+
+}
+.projects__item {
+  display: grid;
+  grid-template-columns: 280px 380px;
+  grid-template-rows: 180px;
+  grid-column-gap: 20px;
+}
+.projects__item-inner {
+  margin-top: 4px;
+  margin-bottom: 13px;
+}
+
+.projects__img {
+
+}
+
+.item__title {
+  margin-bottom: 15px;
+  font-size: 30px;
+  font-weight: 550;
+  line-height: 40px;
+  letter-spacing: 1px;
+}
+
+.item__text {
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 29px;
+  max-width: 380px;
+}
+
+.item__link {
+  display: flex;
+  justify-content: normal;
+  gap: 15px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 1px;
+  color: #FF8A00;
+}
+
+
+.projects__aside {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 450px 298px;
+  grid-row-gap: 52px;
+  padding-top: 10px;
+
+
+}
+.aside {
+
+}
+.aside__banner {
+  position: relative;
+}
+
+.aside__banner-img {
+  position: relative;
+
+}
+
+.aside__banner-inner {
+  position: relative;
+  bottom: 165px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 40px;
+}
+
+.aside__banner-text {
+  font-size: 30px;
+  font-weight: 550;
+  line-height: 40px;
+  color: #fff;
+  width: 300px;
+  display: inline-block;
+  letter-spacing: 1px;
+}
+.aside__banner-link {
+  font-size: 20px;
+  font-weight: 550;
+  line-height: 30px;
+  color: #FF8A00;
+  margin-left: 208px;
+  margin-top: -29px;
+  display: flex;
+  justify-content: normal;
+  gap: 15px;
+  letter-spacing: 1px;
+
+}
+
+.aside__more-projects {
+  display: grid;
+  grid-template-columns: repeat(4, 80px);
+  grid-template-rows: 26px repeat(4, 70px);
+  grid-gap: 20px;
+}
+
+.aside__subtitle {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-column-gap: 0;
+  grid-row-gap: 22px;
+  font-weight: 550;
+  font-size: 20px;
+  line-height: 26px;
+  margin-top: -2px;
+  letter-spacing: 0.6px;
+
+}
+.aside__link {
+  margin-top: 2px;
+}
+
+.aside__image {
+
+}
